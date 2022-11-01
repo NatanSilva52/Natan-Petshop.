@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -14,7 +14,7 @@ header{
 }
 
 header h1{
-    margin: 0;
+    margin: 0 auto;
     height: 84px;
 }
 
@@ -38,7 +38,7 @@ nav a{
 }
 
 nav a:hover{
-    color: #6dd432;
+    color: #60c924;
 }
 
 #itemContato{
@@ -48,12 +48,12 @@ nav a:hover{
 }
 
 .fundo-verde{
-    background-color: #bdff9c;
+    background-color: #60c924;
 }
 
-.container{
+.conteiner{
     width: 900px;
-    margin: 0;
+    margin: 0 auto;
     padding: 56px;
 }
 
@@ -65,4 +65,50 @@ nav a:hover{
 
 .flex-conteiner .col{
     width: 430px;
+}
+.produto{
+    width: 235px;
+    text-align: center;
+    
+    
+}
+.produto figure{
+    border: 1px solid #60c924;
+    background-color:  #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+.produto figure img{
+    vertical-align: middle;
+}
+.btn-pata{
+    border: 1px solid #4cac14;
+    background-color: #60c924;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.texto-centralizado{
+    text-align: center;
+}
+form{
+    width: 0 auto;
+}
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #60c924;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 100%;
 }
